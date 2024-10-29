@@ -62,5 +62,13 @@
     "description": "asdas",
     "status": "Pending",
     "timestamp": "2024-10-29T17:03:16.209Z"
+  },
+  {
+    "claimId": "9",
+    "userId": "6",
+    "claimType": "Vision",
+    "description": "asdad",
+    "status": "Pending",
+    "timestamp": "2024-10-29T17:25:30.758Z"
   }
 ]

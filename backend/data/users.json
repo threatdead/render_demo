@@ -47,5 +47,21 @@
     "email": "ben@gmail.com",
     "password": "ben",
     "role": "user"
+  },
+  {
+    "claimId": "8",
+    "userId": "1",
+    "claimType": "Medical",
+    "description": "asdas",
+    "status": "Pending",
+    "timestamp": "2024-10-29T17:48:17.607Z"
+  },
+  {
+    "claimId": "9",
+    "userId": "6",
+    "claimType": "Medical",
+    "description": "asdas",
+    "status": "Pending",
+    "timestamp": "2024-10-29T17:48:37.947Z"
   }
 ]
