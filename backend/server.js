@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 // Serve static files from the React app (make sure the path is correct)
 app.use(express.static(path.join(__dirname, 'frontend/dist'))); // Use 'build' if that's where your output goes
-app.use(cors({ origin: "https://render-demo-1-y7ha.onrender.com/" }));
+
 // API Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/claims", claimsRoutes);
