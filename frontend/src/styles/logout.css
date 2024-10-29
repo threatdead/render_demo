@@ -1,0 +1,38 @@
+.container {
+    justify-content: center;
+    margin: 20px auto; /* Centering the container */
+    padding: 20px; /* Adding padding for spacing */
+    font-family: "Exo";
+
+}
+ 
+
+/* Header styling */
+.header {
+    display: flex; /* Using flexbox for alignment */
+    justify-content: space-between; /* Space between title and logout button */
+    align-items: center; /* Centering vertically */
+    margin-bottom: 20px; /* Spacing below the header */
+}
+
+.header h2 {
+    font-size: 24px; /* Larger font size for the header */
+    color: #343a40; /* Darker text color for contrast */
+}
+
+/* Logout button styling */
+.logout-button {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
