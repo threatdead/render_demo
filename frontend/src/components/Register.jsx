@@ -21,7 +21,10 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await api.post("/auth/register", formData);
+      const response = await api.post(
+        "https://render-demo-j7ch.onrender.com/auth/register",
+        formData
+      );
       setMessage({ text: response.data.message, type: "success" });
       navigate("/claims");
     } catch (error) {
