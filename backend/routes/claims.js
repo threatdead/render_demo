@@ -4,7 +4,7 @@ const fs = require("fs");
 const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
 
-const claimsFilePath = ("backend/claims.json");
+const claimsFilePath = ("./claims.json");
 
 // Get all claims for the logged-in user
 router.get("/", authMiddleware, (req, res) => {

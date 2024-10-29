@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const fs = require("fs");
 const router = express.Router();
 
-const usersFilePath = ("backend/users.json");
+const usersFilePath = ("./users.json");
 const secret = "XYZ";
 
 // Ensure users.json exists
